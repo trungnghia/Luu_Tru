@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0A779CC31DED232800E12861 /* HHSdkFrame */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A779CC41DED232800E12861 /* Build configuration list for PBXAggregateTarget "HHSdkFrame" */;
+			buildPhases = (
+				0A779CC71DED233F00E12861 /* CopyFiles */,
+				0A779CC91DED234D00E12861 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				0A779CCB1DED253900E12861 /* PBXTargetDependency */,
+			);
+			name = HHSdkFrame;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A5A174E1DF119CC0038CF18 /* btnBackLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17431DF119CC0038CF18 /* btnBackLogin@2x.png */; };
+		0A5A174F1DF119CC0038CF18 /* btnFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17441DF119CC0038CF18 /* btnFace@2x.png */; };
+		0A5A17501DF119CC0038CF18 /* btnGoReg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17451DF119CC0038CF18 /* btnGoReg@2x.png */; };
+		0A5A17511DF119CC0038CF18 /* btnLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17461DF119CC0038CF18 /* btnLogin@2x.png */; };
+		0A5A17521DF119CC0038CF18 /* btnRegedit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17471DF119CC0038CF18 /* btnRegedit@2x.png */; };
+		0A5A17531DF119CC0038CF18 /* imgDK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17481DF119CC0038CF18 /* imgDK@2x.png */; };
+		0A5A17541DF119CC0038CF18 /* imgDKDoCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17491DF119CC0038CF18 /* imgDKDoCheck@2x.png */; };
+		0A5A17551DF119CC0038CF18 /* imgDKUnCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174A1DF119CC0038CF18 /* imgDKUnCheck@2x.png */; };
+		0A5A17561DF119CC0038CF18 /* imgGoogle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174B1DF119CC0038CF18 /* imgGoogle@2x.png */; };
+		0A5A17571DF119CC0038CF18 /* imglogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174C1DF119CC0038CF18 /* imglogin@2x.png */; };
+		0A5A17581DF119CC0038CF18 /* imgRegedit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174D1DF119CC0038CF18 /* imgRegedit@2x.png */; };
+		0A5A17641DF11AA10038CF18 /* btnBackLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17591DF11AA10038CF18 /* btnBackLogin@3x.png */; };
+		0A5A17651DF11AA10038CF18 /* btnFace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175A1DF11AA10038CF18 /* btnFace@3x.png */; };
+		0A5A17661DF11AA10038CF18 /* btnGoReg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175B1DF11AA10038CF18 /* btnGoReg@3x.png */; };
+		0A5A17671DF11AA10038CF18 /* btnLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175C1DF11AA10038CF18 /* btnLogin@3x.png */; };
+		0A5A17681DF11AA10038CF18 /* btnRegedit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175D1DF11AA10038CF18 /* btnRegedit@3x.png */; };
+		0A5A17691DF11AA10038CF18 /* imgDK@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175E1DF11AA10038CF18 /* imgDK@3x.png */; };
+		0A5A176A1DF11AA10038CF18 /* imgDKDoCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175F1DF11AA10038CF18 /* imgDKDoCheck@3x.png */; };
+		0A5A176B1DF11AA10038CF18 /* imgDKUnCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17601DF11AA10038CF18 /* imgDKUnCheck@3x.png */; };
+		0A5A176C1DF11AA10038CF18 /* imgGoogle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17611DF11AA10038CF18 /* imgGoogle@3x.png */; };
+		0A5A176D1DF11AA10038CF18 /* imglogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17621DF11AA10038CF18 /* imglogin@3x.png */; };
+		0A5A176E1DF11AA10038CF18 /* imgRegedit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17631DF11AA10038CF18 /* imgRegedit@3x.png */; };
+		0A5A176F1DF11B6B0038CF18 /* btnBackLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17591DF11AA10038CF18 /* btnBackLogin@3x.png */; };
+		0A5A17701DF11B6B0038CF18 /* btnFace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175A1DF11AA10038CF18 /* btnFace@3x.png */; };
+		0A5A17711DF11B6B0038CF18 /* btnGoReg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175B1DF11AA10038CF18 /* btnGoReg@3x.png */; };
+		0A5A17721DF11B6B0038CF18 /* btnLogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175C1DF11AA10038CF18 /* btnLogin@3x.png */; };
+		0A5A17731DF11B6B0038CF18 /* btnRegedit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175D1DF11AA10038CF18 /* btnRegedit@3x.png */; };
+		0A5A17741DF11B6B0038CF18 /* imgDK@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175E1DF11AA10038CF18 /* imgDK@3x.png */; };
+		0A5A17751DF11B6B0038CF18 /* imgDKDoCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A175F1DF11AA10038CF18 /* imgDKDoCheck@3x.png */; };
+		0A5A17761DF11B6B0038CF18 /* imgDKUnCheck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17601DF11AA10038CF18 /* imgDKUnCheck@3x.png */; };
+		0A5A17771DF11B6B0038CF18 /* imgGoogle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17611DF11AA10038CF18 /* imgGoogle@3x.png */; };
+		0A5A17781DF11B6B0038CF18 /* imglogin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17621DF11AA10038CF18 /* imglogin@3x.png */; };
+		0A5A17791DF11B6B0038CF18 /* imgRegedit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17631DF11AA10038CF18 /* imgRegedit@3x.png */; };
+		0A5A177A1DF11B6B0038CF18 /* btnBackLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17431DF119CC0038CF18 /* btnBackLogin@2x.png */; };
+		0A5A177B1DF11B6B0038CF18 /* btnFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17441DF119CC0038CF18 /* btnFace@2x.png */; };
+		0A5A177C1DF11B6B0038CF18 /* btnGoReg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17451DF119CC0038CF18 /* btnGoReg@2x.png */; };
+		0A5A177D1DF11B6B0038CF18 /* btnLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17461DF119CC0038CF18 /* btnLogin@2x.png */; };
+		0A5A177E1DF11B6B0038CF18 /* btnRegedit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17471DF119CC0038CF18 /* btnRegedit@2x.png */; };
+		0A5A177F1DF11B6B0038CF18 /* imgDK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17481DF119CC0038CF18 /* imgDK@2x.png */; };
+		0A5A17801DF11B6B0038CF18 /* imgDKDoCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A17491DF119CC0038CF18 /* imgDKDoCheck@2x.png */; };
+		0A5A17811DF11B6B0038CF18 /* imgDKUnCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174A1DF119CC0038CF18 /* imgDKUnCheck@2x.png */; };
+		0A5A17821DF11B6B0038CF18 /* imgGoogle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174B1DF119CC0038CF18 /* imgGoogle@2x.png */; };
+		0A5A17831DF11B6B0038CF18 /* imglogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174C1DF119CC0038CF18 /* imglogin@2x.png */; };
+		0A5A17841DF11B6B0038CF18 /* imgRegedit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A174D1DF119CC0038CF18 /* imgRegedit@2x.png */; };
+		0A779C6E1DED1F9200E12861 /* HHSdk.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A779C6B1DED1F9200E12861 /* HHSdk.h */; };
+		0A779C761DED20BA00E12861 /* HHSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C6B1DED1F9200E12861 /* HHSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A779C8D1DED20E400E12861 /* CallService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C7D1DED20E400E12861 /* CallService.h */; };
+		0A779C8E1DED20E400E12861 /* CallService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A779C7E1DED20E400E12861 /* CallService.m */; };
+		0A779C8F1DED20E400E12861 /* HoangHiep.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C7F1DED20E400E12861 /* HoangHiep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A779C901DED20E400E12861 /* HoangHiep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A779C801DED20E400E12861 /* HoangHiep.m */; };
+		0A779C911DED20E400E12861 /* Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C871DED20E400E12861 /* Internal.h */; };
+		0A779C921DED20E400E12861 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C881DED20E400E12861 /* LoginViewController.h */; };
+		0A779C931DED20E400E12861 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A779C891DED20E400E12861 /* LoginViewController.m */; };
+		0A779C941DED20E400E12861 /* UserInfor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A779C8B1DED20E400E12861 /* UserInfor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A779C951DED20E400E12861 /* UserInfor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A779C8C1DED20E400E12861 /* UserInfor.m */; };
+		0A779C9C1DED21B000E12861 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A779C9B1DED21B000E12861 /* SystemConfiguration.framework */; };
+		0A779C9E1DED21BA00E12861 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A779C9D1DED21BA00E12861 /* SafariServices.framework */; };
+		0A779CA01DED220C00E12861 /* btnBackLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C781DED20E400E12861 /* btnBackLogin.png */; };
+		0A779CA11DED220C00E12861 /* btnFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C791DED20E400E12861 /* btnFace.png */; };
+		0A779CA21DED220C00E12861 /* btnGoReg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7A1DED20E400E12861 /* btnGoReg.png */; };
+		0A779CA31DED220C00E12861 /* btnLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7B1DED20E400E12861 /* btnLogin.png */; };
+		0A779CA41DED220C00E12861 /* btnRegedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7C1DED20E400E12861 /* btnRegedit.png */; };
+		0A779CA51DED220C00E12861 /* imgDK.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C811DED20E400E12861 /* imgDK.png */; };
+		0A779CA61DED220C00E12861 /* imgDKDoCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C821DED20E400E12861 /* imgDKDoCheck.png */; };
+		0A779CA71DED220C00E12861 /* imgDKUnCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C831DED20E400E12861 /* imgDKUnCheck.png */; };
+		0A779CA81DED220C00E12861 /* imgGoogle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C841DED20E400E12861 /* imgGoogle.png */; };
+		0A779CA91DED220C00E12861 /* imglogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C851DED20E400E12861 /* imglogin.png */; };
+		0A779CAA1DED220C00E12861 /* imgRegedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C861DED20E400E12861 /* imgRegedit.png */; };
+		0A779CAB1DED220C00E12861 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C8A1DED20E400E12861 /* LoginViewController.xib */; };
+		0A779CB71DED231200E12861 /* btnBackLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C781DED20E400E12861 /* btnBackLogin.png */; };
+		0A779CB81DED231200E12861 /* btnFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C791DED20E400E12861 /* btnFace.png */; };
+		0A779CB91DED231200E12861 /* btnGoReg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7A1DED20E400E12861 /* btnGoReg.png */; };
+		0A779CBA1DED231200E12861 /* btnLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7B1DED20E400E12861 /* btnLogin.png */; };
+		0A779CBB1DED231200E12861 /* btnRegedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C7C1DED20E400E12861 /* btnRegedit.png */; };
+		0A779CBC1DED231200E12861 /* imgDK.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C811DED20E400E12861 /* imgDK.png */; };
+		0A779CBD1DED231200E12861 /* imgDKDoCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C821DED20E400E12861 /* imgDKDoCheck.png */; };
+		0A779CBE1DED231200E12861 /* imgDKUnCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C831DED20E400E12861 /* imgDKUnCheck.png */; };
+		0A779CBF1DED231200E12861 /* imgGoogle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C841DED20E400E12861 /* imgGoogle.png */; };
+		0A779CC01DED231200E12861 /* imglogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C851DED20E400E12861 /* imglogin.png */; };
+		0A779CC11DED231200E12861 /* imgRegedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C861DED20E400E12861 /* imgRegedit.png */; };
+		0A779CC21DED231200E12861 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A779C8A1DED20E400E12861 /* LoginViewController.xib */; };
+		0A779CC81DED234800E12861 /* HHSdk.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A779C6B1DED1F9200E12861 /* HHSdk.h */; };
+		0AAEF5FE1DED349B00546D60 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AAEF5FB1DED320A00546D60 /* Info.plist */; };
+		EE7F472916CA82BE860944E1 /* libPods-HHSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C546C9B98672F2D903C8590F /* libPods-HHSdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A779CCA1DED253900E12861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A779C601DED1F9200E12861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A779CB01DED229C00E12861;
+			remoteInfo = HHSdkResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A779C661DED1F9200E12861 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0AAEF5FE1DED349B00546D60 /* Info.plist in CopyFiles */,
+				0A779C6E1DED1F9200E12861 /* HHSdk.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A779CC71DED233F00E12861 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				0A779CC81DED234800E12861 /* HHSdk.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A5A17431DF119CC0038CF18 /* btnBackLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBackLogin@2x.png"; sourceTree = "<group>"; };
+		0A5A17441DF119CC0038CF18 /* btnFace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnFace@2x.png"; sourceTree = "<group>"; };
+		0A5A17451DF119CC0038CF18 /* btnGoReg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnGoReg@2x.png"; sourceTree = "<group>"; };
+		0A5A17461DF119CC0038CF18 /* btnLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLogin@2x.png"; sourceTree = "<group>"; };
+		0A5A17471DF119CC0038CF18 /* btnRegedit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRegedit@2x.png"; sourceTree = "<group>"; };
+		0A5A17481DF119CC0038CF18 /* imgDK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDK@2x.png"; sourceTree = "<group>"; };
+		0A5A17491DF119CC0038CF18 /* imgDKDoCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDKDoCheck@2x.png"; sourceTree = "<group>"; };
+		0A5A174A1DF119CC0038CF18 /* imgDKUnCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDKUnCheck@2x.png"; sourceTree = "<group>"; };
+		0A5A174B1DF119CC0038CF18 /* imgGoogle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgGoogle@2x.png"; sourceTree = "<group>"; };
+		0A5A174C1DF119CC0038CF18 /* imglogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imglogin@2x.png"; sourceTree = "<group>"; };
+		0A5A174D1DF119CC0038CF18 /* imgRegedit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgRegedit@2x.png"; sourceTree = "<group>"; };
+		0A5A17591DF11AA10038CF18 /* btnBackLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBackLogin@3x.png"; sourceTree = "<group>"; };
+		0A5A175A1DF11AA10038CF18 /* btnFace@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnFace@3x.png"; sourceTree = "<group>"; };
+		0A5A175B1DF11AA10038CF18 /* btnGoReg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnGoReg@3x.png"; sourceTree = "<group>"; };
+		0A5A175C1DF11AA10038CF18 /* btnLogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLogin@3x.png"; sourceTree = "<group>"; };
+		0A5A175D1DF11AA10038CF18 /* btnRegedit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRegedit@3x.png"; sourceTree = "<group>"; };
+		0A5A175E1DF11AA10038CF18 /* imgDK@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDK@3x.png"; sourceTree = "<group>"; };
+		0A5A175F1DF11AA10038CF18 /* imgDKDoCheck@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDKDoCheck@3x.png"; sourceTree = "<group>"; };
+		0A5A17601DF11AA10038CF18 /* imgDKUnCheck@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgDKUnCheck@3x.png"; sourceTree = "<group>"; };
+		0A5A17611DF11AA10038CF18 /* imgGoogle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgGoogle@3x.png"; sourceTree = "<group>"; };
+		0A5A17621DF11AA10038CF18 /* imglogin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imglogin@3x.png"; sourceTree = "<group>"; };
+		0A5A17631DF11AA10038CF18 /* imgRegedit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgRegedit@3x.png"; sourceTree = "<group>"; };
+		0A779C681DED1F9200E12861 /* libHHSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHHSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A779C6B1DED1F9200E12861 /* HHSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSdk.h; sourceTree = "<group>"; };
+		0A779C741DED203600E12861 /* HHSdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHSdk-Prefix.pch"; sourceTree = "<group>"; };
+		0A779C781DED20E400E12861 /* btnBackLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBackLogin.png; sourceTree = "<group>"; };
+		0A779C791DED20E400E12861 /* btnFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnFace.png; sourceTree = "<group>"; };
+		0A779C7A1DED20E400E12861 /* btnGoReg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnGoReg.png; sourceTree = "<group>"; };
+		0A779C7B1DED20E400E12861 /* btnLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnLogin.png; sourceTree = "<group>"; };
+		0A779C7C1DED20E400E12861 /* btnRegedit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRegedit.png; sourceTree = "<group>"; };
+		0A779C7D1DED20E400E12861 /* CallService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallService.h; sourceTree = "<group>"; };
+		0A779C7E1DED20E400E12861 /* CallService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallService.m; sourceTree = "<group>"; };
+		0A779C7F1DED20E400E12861 /* HoangHiep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoangHiep.h; sourceTree = "<group>"; };
+		0A779C801DED20E400E12861 /* HoangHiep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoangHiep.m; sourceTree = "<group>"; };
+		0A779C811DED20E400E12861 /* imgDK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgDK.png; sourceTree = "<group>"; };
+		0A779C821DED20E400E12861 /* imgDKDoCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgDKDoCheck.png; sourceTree = "<group>"; };
+		0A779C831DED20E400E12861 /* imgDKUnCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgDKUnCheck.png; sourceTree = "<group>"; };
+		0A779C841DED20E400E12861 /* imgGoogle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgGoogle.png; sourceTree = "<group>"; };
+		0A779C851DED20E400E12861 /* imglogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imglogin.png; sourceTree = "<group>"; };
+		0A779C861DED20E400E12861 /* imgRegedit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgRegedit.png; sourceTree = "<group>"; };
+		0A779C871DED20E400E12861 /* Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Internal.h; sourceTree = "<group>"; };
+		0A779C881DED20E400E12861 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0A779C891DED20E400E12861 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0A779C8A1DED20E400E12861 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0A779C8B1DED20E400E12861 /* UserInfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfor.h; sourceTree = "<group>"; };
+		0A779C8C1DED20E400E12861 /* UserInfor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfor.m; sourceTree = "<group>"; };
+		0A779C9B1DED21B000E12861 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A779C9D1DED21BA00E12861 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0A779CB11DED229C00E12861 /* HHSdk.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHSdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A779CB31DED229C00E12861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AAEF5FB1DED320A00546D60 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = plitfile/Info.plist; sourceTree = "<group>"; };
+		4DF5E2EB64AE6CD21C6C0590 /* Pods-HHSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHSdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHSdk/Pods-HHSdk.release.xcconfig"; sourceTree = "<group>"; };
+		78F70B68385D6D09CEB64B0C /* Pods-HHSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHSdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHSdk/Pods-HHSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		C546C9B98672F2D903C8590F /* libPods-HHSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHSdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A779C651DED1F9200E12861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A779C9E1DED21BA00E12861 /* SafariServices.framework in Frameworks */,
+				0A779C9C1DED21B000E12861 /* SystemConfiguration.framework in Frameworks */,
+				EE7F472916CA82BE860944E1 /* libPods-HHSdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A779CAE1DED229C00E12861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A779C5F1DED1F9200E12861 = {
+			isa = PBXGroup;
+			children = (
+				0A779C6A1DED1F9200E12861 /* HHSdk */,
+				0A779CB21DED229C00E12861 /* HHSdkResources */,
+				0A779C691DED1F9200E12861 /* Products */,
+				0A779C9A1DED21AF00E12861 /* Frameworks */,
+				56AAA7B309C2DA7FB5A43AAE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0A779C691DED1F9200E12861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C681DED1F9200E12861 /* libHHSdk.a */,
+				0A779CB11DED229C00E12861 /* HHSdk.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A779C6A1DED1F9200E12861 /* HHSdk */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C771DED20E400E12861 /* HoangHiep */,
+				0A779C6B1DED1F9200E12861 /* HHSdk.h */,
+				0A779C741DED203600E12861 /* HHSdk-Prefix.pch */,
+				0AAEF5FB1DED320A00546D60 /* Info.plist */,
+			);
+			path = HHSdk;
+			sourceTree = "<group>";
+		};
+		0A779C771DED20E400E12861 /* HoangHiep */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C961DED20F300E12861 /* Api */,
+				0A779C971DED210800E12861 /* ClassSuper */,
+				0A779C981DED213200E12861 /* ViewController */,
+				0A779C991DED214F00E12861 /* Resources */,
+			);
+			path = HoangHiep;
+			sourceTree = "<group>";
+		};
+		0A779C961DED20F300E12861 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C7D1DED20E400E12861 /* CallService.h */,
+				0A779C7E1DED20E400E12861 /* CallService.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		0A779C971DED210800E12861 /* ClassSuper */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C7F1DED20E400E12861 /* HoangHiep.h */,
+				0A779C801DED20E400E12861 /* HoangHiep.m */,
+				0A779C871DED20E400E12861 /* Internal.h */,
+				0A779C8B1DED20E400E12861 /* UserInfor.h */,
+				0A779C8C1DED20E400E12861 /* UserInfor.m */,
+			);
+			name = ClassSuper;
+			sourceTree = "<group>";
+		};
+		0A779C981DED213200E12861 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C881DED20E400E12861 /* LoginViewController.h */,
+				0A779C891DED20E400E12861 /* LoginViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0A779C991DED214F00E12861 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A17591DF11AA10038CF18 /* btnBackLogin@3x.png */,
+				0A5A175A1DF11AA10038CF18 /* btnFace@3x.png */,
+				0A5A175B1DF11AA10038CF18 /* btnGoReg@3x.png */,
+				0A5A175C1DF11AA10038CF18 /* btnLogin@3x.png */,
+				0A5A175D1DF11AA10038CF18 /* btnRegedit@3x.png */,
+				0A5A175E1DF11AA10038CF18 /* imgDK@3x.png */,
+				0A5A175F1DF11AA10038CF18 /* imgDKDoCheck@3x.png */,
+				0A5A17601DF11AA10038CF18 /* imgDKUnCheck@3x.png */,
+				0A5A17611DF11AA10038CF18 /* imgGoogle@3x.png */,
+				0A5A17621DF11AA10038CF18 /* imglogin@3x.png */,
+				0A5A17631DF11AA10038CF18 /* imgRegedit@3x.png */,
+				0A5A17431DF119CC0038CF18 /* btnBackLogin@2x.png */,
+				0A5A17441DF119CC0038CF18 /* btnFace@2x.png */,
+				0A5A17451DF119CC0038CF18 /* btnGoReg@2x.png */,
+				0A5A17461DF119CC0038CF18 /* btnLogin@2x.png */,
+				0A5A17471DF119CC0038CF18 /* btnRegedit@2x.png */,
+				0A5A17481DF119CC0038CF18 /* imgDK@2x.png */,
+				0A5A17491DF119CC0038CF18 /* imgDKDoCheck@2x.png */,
+				0A5A174A1DF119CC0038CF18 /* imgDKUnCheck@2x.png */,
+				0A5A174B1DF119CC0038CF18 /* imgGoogle@2x.png */,
+				0A5A174C1DF119CC0038CF18 /* imglogin@2x.png */,
+				0A5A174D1DF119CC0038CF18 /* imgRegedit@2x.png */,
+				0A779C781DED20E400E12861 /* btnBackLogin.png */,
+				0A779C791DED20E400E12861 /* btnFace.png */,
+				0A779C7A1DED20E400E12861 /* btnGoReg.png */,
+				0A779C7B1DED20E400E12861 /* btnLogin.png */,
+				0A779C7C1DED20E400E12861 /* btnRegedit.png */,
+				0A779C811DED20E400E12861 /* imgDK.png */,
+				0A779C821DED20E400E12861 /* imgDKDoCheck.png */,
+				0A779C831DED20E400E12861 /* imgDKUnCheck.png */,
+				0A779C841DED20E400E12861 /* imgGoogle.png */,
+				0A779C851DED20E400E12861 /* imglogin.png */,
+				0A779C861DED20E400E12861 /* imgRegedit.png */,
+				0A779C8A1DED20E400E12861 /* LoginViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0A779C9A1DED21AF00E12861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A779C9D1DED21BA00E12861 /* SafariServices.framework */,
+				0A779C9B1DED21B000E12861 /* SystemConfiguration.framework */,
+				C546C9B98672F2D903C8590F /* libPods-HHSdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A779CB21DED229C00E12861 /* HHSdkResources */ = {
+			isa = PBXGroup;
+			children = (
+				0A779CB31DED229C00E12861 /* Info.plist */,
+			);
+			path = HHSdkResources;
+			sourceTree = "<group>";
+		};
+		56AAA7B309C2DA7FB5A43AAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78F70B68385D6D09CEB64B0C /* Pods-HHSdk.debug.xcconfig */,
+				4DF5E2EB64AE6CD21C6C0590 /* Pods-HHSdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A779C751DED20B400E12861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A779C8D1DED20E400E12861 /* CallService.h in Headers */,
+				0A779C8F1DED20E400E12861 /* HoangHiep.h in Headers */,
+				0A779C941DED20E400E12861 /* UserInfor.h in Headers */,
+				0A779C911DED20E400E12861 /* Internal.h in Headers */,
+				0A779C761DED20BA00E12861 /* HHSdk.h in Headers */,
+				0A779C921DED20E400E12861 /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A779C671DED1F9200E12861 /* HHSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A779C711DED1F9200E12861 /* Build configuration list for PBXNativeTarget "HHSdk" */;
+			buildPhases = (
+				9166599ECD17399C9900F734 /* [CP] Check Pods Manifest.lock */,
+				0A779C641DED1F9200E12861 /* Sources */,
+				0A779C651DED1F9200E12861 /* Frameworks */,
+				0A779C661DED1F9200E12861 /* CopyFiles */,
+				0A779C751DED20B400E12861 /* Headers */,
+				0A779C9F1DED220200E12861 /* Resources */,
+				0A779CAC1DED223100E12861 /* Build Framework */,
+				764A29EA463E8CF502D3E443 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHSdk;
+			productName = HHSdk;
+			productReference = 0A779C681DED1F9200E12861 /* libHHSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0A779CB01DED229C00E12861 /* HHSdkResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A779CB41DED229C00E12861 /* Build configuration list for PBXNativeTarget "HHSdkResources" */;
+			buildPhases = (
+				0A779CAD1DED229C00E12861 /* Sources */,
+				0A779CAE1DED229C00E12861 /* Frameworks */,
+				0A779CAF1DED229C00E12861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHSdkResources;
+			productName = HHSdkResources;
+			productReference = 0A779CB11DED229C00E12861 /* HHSdk.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A779C601DED1F9200E12861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hoàng Hiệp";
+				TargetAttributes = {
+					0A779C671DED1F9200E12861 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MSV2J4Z5G3;
+						ProvisioningStyle = Automatic;
+					};
+					0A779CB01DED229C00E12861 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MSV2J4Z5G3;
+						ProvisioningStyle = Automatic;
+					};
+					0A779CC31DED232800E12861 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MSV2J4Z5G3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A779C631DED1F9200E12861 /* Build configuration list for PBXProject "HHSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A779C5F1DED1F9200E12861;
+			productRefGroup = 0A779C691DED1F9200E12861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A779C671DED1F9200E12861 /* HHSdk */,
+				0A779CB01DED229C00E12861 /* HHSdkResources */,
+				0A779CC31DED232800E12861 /* HHSdkFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A779C9F1DED220200E12861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A779CA01DED220C00E12861 /* btnBackLogin.png in Resources */,
+				0A5A17551DF119CC0038CF18 /* imgDKUnCheck@2x.png in Resources */,
+				0A5A176A1DF11AA10038CF18 /* imgDKDoCheck@3x.png in Resources */,
+				0A779CA11DED220C00E12861 /* btnFace.png in Resources */,
+				0A5A174F1DF119CC0038CF18 /* btnFace@2x.png in Resources */,
+				0A5A17501DF119CC0038CF18 /* btnGoReg@2x.png in Resources */,
+				0A5A17581DF119CC0038CF18 /* imgRegedit@2x.png in Resources */,
+				0A779CA21DED220C00E12861 /* btnGoReg.png in Resources */,
+				0A5A176C1DF11AA10038CF18 /* imgGoogle@3x.png in Resources */,
+				0A5A17571DF119CC0038CF18 /* imglogin@2x.png in Resources */,
+				0A5A17531DF119CC0038CF18 /* imgDK@2x.png in Resources */,
+				0A779CA31DED220C00E12861 /* btnLogin.png in Resources */,
+				0A5A17541DF119CC0038CF18 /* imgDKDoCheck@2x.png in Resources */,
+				0A5A17681DF11AA10038CF18 /* btnRegedit@3x.png in Resources */,
+				0A5A17691DF11AA10038CF18 /* imgDK@3x.png in Resources */,
+				0A779CA41DED220C00E12861 /* btnRegedit.png in Resources */,
+				0A779CA51DED220C00E12861 /* imgDK.png in Resources */,
+				0A5A17651DF11AA10038CF18 /* btnFace@3x.png in Resources */,
+				0A5A174E1DF119CC0038CF18 /* btnBackLogin@2x.png in Resources */,
+				0A5A17511DF119CC0038CF18 /* btnLogin@2x.png in Resources */,
+				0A5A17671DF11AA10038CF18 /* btnLogin@3x.png in Resources */,
+				0A779CA61DED220C00E12861 /* imgDKDoCheck.png in Resources */,
+				0A779CA71DED220C00E12861 /* imgDKUnCheck.png in Resources */,
+				0A779CA81DED220C00E12861 /* imgGoogle.png in Resources */,
+				0A779CA91DED220C00E12861 /* imglogin.png in Resources */,
+				0A779CAA1DED220C00E12861 /* imgRegedit.png in Resources */,
+				0A5A17561DF119CC0038CF18 /* imgGoogle@2x.png in Resources */,
+				0A5A17521DF119CC0038CF18 /* btnRegedit@2x.png in Resources */,
+				0A5A176D1DF11AA10038CF18 /* imglogin@3x.png in Resources */,
+				0A779CAB1DED220C00E12861 /* LoginViewController.xib in Resources */,
+				0A5A17641DF11AA10038CF18 /* btnBackLogin@3x.png in Resources */,
+				0A5A17661DF11AA10038CF18 /* btnGoReg@3x.png in Resources */,
+				0A5A176E1DF11AA10038CF18 /* imgRegedit@3x.png in Resources */,
+				0A5A176B1DF11AA10038CF18 /* imgDKUnCheck@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A779CAF1DED229C00E12861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5A176F1DF11B6B0038CF18 /* btnBackLogin@3x.png in Resources */,
+				0A5A17701DF11B6B0038CF18 /* btnFace@3x.png in Resources */,
+				0A5A17711DF11B6B0038CF18 /* btnGoReg@3x.png in Resources */,
+				0A5A17721DF11B6B0038CF18 /* btnLogin@3x.png in Resources */,
+				0A5A17731DF11B6B0038CF18 /* btnRegedit@3x.png in Resources */,
+				0A5A17741DF11B6B0038CF18 /* imgDK@3x.png in Resources */,
+				0A5A17751DF11B6B0038CF18 /* imgDKDoCheck@3x.png in Resources */,
+				0A5A17761DF11B6B0038CF18 /* imgDKUnCheck@3x.png in Resources */,
+				0A5A17771DF11B6B0038CF18 /* imgGoogle@3x.png in Resources */,
+				0A5A17781DF11B6B0038CF18 /* imglogin@3x.png in Resources */,
+				0A5A17791DF11B6B0038CF18 /* imgRegedit@3x.png in Resources */,
+				0A5A177A1DF11B6B0038CF18 /* btnBackLogin@2x.png in Resources */,
+				0A5A177B1DF11B6B0038CF18 /* btnFace@2x.png in Resources */,
+				0A5A177C1DF11B6B0038CF18 /* btnGoReg@2x.png in Resources */,
+				0A5A177D1DF11B6B0038CF18 /* btnLogin@2x.png in Resources */,
+				0A5A177E1DF11B6B0038CF18 /* btnRegedit@2x.png in Resources */,
+				0A5A177F1DF11B6B0038CF18 /* imgDK@2x.png in Resources */,
+				0A5A17801DF11B6B0038CF18 /* imgDKDoCheck@2x.png in Resources */,
+				0A5A17811DF11B6B0038CF18 /* imgDKUnCheck@2x.png in Resources */,
+				0A5A17821DF11B6B0038CF18 /* imgGoogle@2x.png in Resources */,
+				0A5A17831DF11B6B0038CF18 /* imglogin@2x.png in Resources */,
+				0A5A17841DF11B6B0038CF18 /* imgRegedit@2x.png in Resources */,
+				0A779CB71DED231200E12861 /* btnBackLogin.png in Resources */,
+				0A779CB81DED231200E12861 /* btnFace.png in Resources */,
+				0A779CB91DED231200E12861 /* btnGoReg.png in Resources */,
+				0A779CBA1DED231200E12861 /* btnLogin.png in Resources */,
+				0A779CBB1DED231200E12861 /* btnRegedit.png in Resources */,
+				0A779CBC1DED231200E12861 /* imgDK.png in Resources */,
+				0A779CBD1DED231200E12861 /* imgDKDoCheck.png in Resources */,
+				0A779CBE1DED231200E12861 /* imgDKUnCheck.png in Resources */,
+				0A779CBF1DED231200E12861 /* imgGoogle.png in Resources */,
+				0A779CC01DED231200E12861 /* imglogin.png in Resources */,
+				0A779CC11DED231200E12861 /* imgRegedit.png in Resources */,
+				0A779CC21DED231200E12861 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A779CAC1DED223100E12861 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers dir\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the plit file into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/include/${PRODUCT_NAME}/Info.plist\" \\\n\"${FRAMEWORK_LOCN}\"";
+		};
+		0A779CC91DED234D00E12861 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nxcodebuild -workspace HHSdk.xcworkspace -scheme HHSdk -sdk iphonesimulator -configuration Debug\nxcodebuild -workspace HHSdk.xcworkspace -scheme HHSdk -sdk iphoneos -configuration Debug\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n\n# Ensure that the framework is present in both platorm's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n\n# Copy the resources bundle to the user's desktop\nditto \"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.bundle\" \\\n\"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.bundle\"";
+		};
+		764A29EA463E8CF502D3E443 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHSdk/Pods-HHSdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9166599ECD17399C9900F734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A779C641DED1F9200E12861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A779C8E1DED20E400E12861 /* CallService.m in Sources */,
+				0A779C901DED20E400E12861 /* HoangHiep.m in Sources */,
+				0A779C931DED20E400E12861 /* LoginViewController.m in Sources */,
+				0A779C951DED20E400E12861 /* UserInfor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A779CAD1DED229C00E12861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A779CCB1DED253900E12861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A779CB01DED229C00E12861 /* HHSdkResources */;
+			targetProxy = 0A779CCA1DED253900E12861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A779C6F1DED1F9200E12861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A779C701DED1F9200E12861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A779C721DED1F9200E12861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F70B68385D6D09CEB64B0C /* Pods-HHSdk.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HHSdk-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		0A779C731DED1F9200E12861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF5E2EB64AE6CD21C6C0590 /* Pods-HHSdk.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HHSdk-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		0A779CB51DED229C00E12861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				INFOPLIST_FILE = HHSdkResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = HoangHiep.HHSdkResources;
+				PRODUCT_NAME = HHSdk;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0A779CB61DED229C00E12861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				INFOPLIST_FILE = HHSdkResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = HoangHiep.HHSdkResources;
+				PRODUCT_NAME = HHSdk;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0A779CC51DED232800E12861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		0A779CC61DED232800E12861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MSV2J4Z5G3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A779C631DED1F9200E12861 /* Build configuration list for PBXProject "HHSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A779C6F1DED1F9200E12861 /* Debug */,
+				0A779C701DED1F9200E12861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A779C711DED1F9200E12861 /* Build configuration list for PBXNativeTarget "HHSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A779C721DED1F9200E12861 /* Debug */,
+				0A779C731DED1F9200E12861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A779CB41DED229C00E12861 /* Build configuration list for PBXNativeTarget "HHSdkResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A779CB51DED229C00E12861 /* Debug */,
+				0A779CB61DED229C00E12861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A779CC41DED232800E12861 /* Build configuration list for PBXAggregateTarget "HHSdkFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A779CC51DED232800E12861 /* Debug */,
+				0A779CC61DED232800E12861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A779C601DED1F9200E12861 /* Project object */;
+}
